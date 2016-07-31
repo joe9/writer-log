@@ -1,0 +1,14 @@
+Name:          writer-log
+Version:       1.0.0
+Author:        Joe9
+Homepage:      http://none.sourceforge.net/
+Category:      Data
+Synopsis:      functions to help when using Writer transformer Log
+               data
+Tested-With:   GHC==7.0.1
+Build-Type:    Simple
+Cabal-Version: >= 1.6
+
+Library
+   Build-Depends: base, time-units, groom, mtl
+   Exposed-modules: WriterLog
